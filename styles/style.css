@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    margin-top: -20px;
+    padding: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  
+  .navbar-brand {
+    /* rearranges the navbar elements*/
+    margin-right: 150px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .up {
+    /* sets up the color of the nav bar*/
+  
+    background-color: silver;
+    width: 100%;
+  }
+  
+  body {
+    background-color: whitesmoke;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .ab {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 30px;
+  }
+  iframe {
+    margin-top: 100px;
+    padding-left: 20px;
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 30px;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .yel {
+    color: gold;
+  }
+  
+  .gr {
+    color: green;
+  }
+  .gw {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: black;
+  }
+  

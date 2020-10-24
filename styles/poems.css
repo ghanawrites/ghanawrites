@@ -1,0 +1,16 @@
+.mod1 {
+    margin: 50px;
+  }
+  .mod2 {
+    margin: 50px;
+  }
+  
+  .mod3 {
+    margin: 50px;
+  }
+  #bg {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

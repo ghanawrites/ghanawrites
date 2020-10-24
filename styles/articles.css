@@ -1,0 +1,33 @@
+.mn {
+    margin-top: 100px;
+  }
+  
+  .atc {
+    padding: 20px;
+  }
+  
+  .hd {
+    height: 70px;
+    background-color: silver;
+  }
+  
+  .tt {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  
+  .bd {
+    line-height: 35px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  #bg {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
