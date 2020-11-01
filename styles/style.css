@@ -45,7 +45,7 @@ h2 {
   color: black;
   line-height: 40px;
   padding: 26px;
-  font-family: "Verdana", "Geneva", "sans-serif";
+  font-family: "Lucida Console", "Monaco", monospace;
 }
 iframe {
   margin-top: 100px;
