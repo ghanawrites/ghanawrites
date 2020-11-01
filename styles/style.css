@@ -60,7 +60,8 @@ footer {
   text-align: center;
   font-size: 15px;
   font-family: cursive;
-  font-weigth: bolder;
+  font-weight: bolder;
+  color: black;
   padding: 30px;
 }
 
