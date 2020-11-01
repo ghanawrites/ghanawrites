@@ -4,7 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> GW-Stories </title>
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title> Ghanawrites - Stories </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -35,7 +52,7 @@
             <span class="icon-bar" color:black></span>
           </button>
           <a class="navbar-brand" href="index.html"><em>
-              <h3><span class="gw">G.W</span></h3>
+              <h3><span class="gw">G&nbsp.&nbspW</span></h3>
             </em></a>
 
         </div>
@@ -47,9 +64,10 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">READ<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="articles.html">ARTICLES</a></li>
+
                 <li><a href="poems.html">POEMS</a></li>
                 <li><a href="stories.html">SHORT STORIES</a></li>
+                <li><a href="articles.html">ARTICLES</a></li>
               </ul>
             </li>
             <li class="#"><a href="video.html">VIDEO</a></li>
@@ -57,7 +75,7 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <img src="images/logo.jpg" height="60px" width="40px">
+            <img src="images/mylogo.png" height="100px" width="100px">
 
           </ul>
         </div>
@@ -67,90 +85,77 @@
   </div>
   <br>
   <main>
-    <div class="container">
+    <div class="container" id="sc">
 
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#pm1">
-                Story 1
-              </a>
-            </h4>
-          </div>
-          <div id="pm1" class="panel-collapse collapse">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Iure blanditiis nesciunt nobis, impedit itaque quod magni consequuntur
-              cupiditate, corporis quidem aut maiores explicabo quae!
-              Placeat ab quae eos minima provident?
+      <script>
+        $(document).ready(function() {
+          $("#sh1").click(function() {
+            $("#sb1").slideToggle("slow");
+          });
+        });
+      </script>
 
-            </div>
+      <div class="s-main">
+        <div id="sh1" class="s-head">
+          <a href="#" class="a"> Story- click to read </a>
+        </div>
 
-          </div>
+        <div id="sb1" class="s-body">
+          -coming soon
         </div>
       </div>
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#pm2">
-                Story 2
-              </a>
-            </h4>
-          </div>
-          <div id="pm2" class="panel-collapse collapse">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Iure blanditiis nesciunt nobis, impedit itaque quod magni consequuntur
-              cupiditate, corporis quidem aut maiores explicabo quae!
-              Placeat ab quae eos minima provident?
 
-            </div>
+      <script>
+        $(document).ready(function() {
+          $("#sh2").click(function() {
+            $("#sb2").slideToggle("slow");
+          });
+        });
+      </script>
 
-          </div>
+      <div class="s-main">
+        <div id="sh2" class="s-head">
+          <a href="#" class="a">story- click to read </a>
+        </div>
+
+        <div id="sb2" class="s-body">
+          -coming soon
         </div>
       </div>
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#pm3">
-                Story 3
-              </a>
-            </h4>
-          </div>
-          <div id="pm3" class="panel-collapse collapse">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Iure blanditiis nesciunt nobis, impedit itaque quod magni consequuntur
-              cupiditate, corporis quidem aut maiores explicabo quae!
-              Placeat ab quae eos minima provident?
 
-            </div>
+      <script>
+        $(document).ready(function() {
+          $("#sh3").click(function() {
+            $("#sb3").slideToggle("slow");
+          });
+        });
+      </script>
 
-          </div>
+      <div class="s-main">
+        <div id="sh3" class="s-head">
+          <a href="#" class="a"> story- click to read </a>
         </div>
+
+        <div id="sb3" class="s-body">
+          -coming soon
+        </div> 
       </div>
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#pm4">
-                Story 4
-              </a>
-            </h4>
-          </div>
-          <div id="pm4" class="panel-collapse collapse">
-            <div class="panel-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Iure blanditiis nesciunt nobis, impedit itaque quod magni consequuntur
-              cupiditate, corporis quidem aut maiores explicabo quae!
-              Placeat ab quae eos minima provident?
 
-            </div>
+      <script>
+        $(document).ready(function() {
+          $("#sh4").click(function() {
+            $("#sb4").slideToggle("slow");
+          });
+        });
+      </script>
 
-          </div>
+      <div class="s-main">
+        <div id="sh4" class="s-head">
+          <a href="#" class="a">story- click to read </a>
+        </div>
+
+        <div id="sb4" class="s-body">
+          -coming soon
         </div>
       </div>
 
@@ -159,7 +164,8 @@
     <br><br><br><br>
     <hr>
     <br>
-    <footer> 2020 &#xA9; pascalnabare </footer>
+    <footer> &#xA9; 2020. Ghana Writes <br>
+      POWERED BY pascalnabare </footer>
   </main>
 </body>
 
