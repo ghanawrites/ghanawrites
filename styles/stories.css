@@ -1,0 +1,38 @@
+.s-main {
+    padding: 20px;
+  }
+  
+  #sb1,
+  #sb2,
+  #sb3,
+  #sb4 {
+    display: none;
+    padding: 25px;
+    border: solid 1px #e5eecc;
+    background-color: #e5eecc;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: "Apple Chancery", cursive;
+    color: black;
+  }
+  
+  .s-head {
+    text-align: center;
+    font-size: 29px;
+    font-family: "Bodoni MT";
+    border: solid 1px #e5eecc;
+    background-color: silver;
+    width: auto;
+    height: 60px;
+  }
+  
+  .a {
+    color: black;
+  }
+  
+  .a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: black;
+  }
+  

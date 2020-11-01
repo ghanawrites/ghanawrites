@@ -1,8 +1,9 @@
 .spec {
-    font-size: 20px;
-  }
-  
-  .jumbotron {
-    height: max-content;
-  }
-  
+  font-size: 20px;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  color: black;
+}
+
+.jumbotron {
+  height: max-content;
+}

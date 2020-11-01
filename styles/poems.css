@@ -1,16 +1,19 @@
-.mod1 {
-    margin: 50px;
-  }
-  .mod2 {
-    margin: 50px;
-  }
-  
-  .mod3 {
-    margin: 50px;
-  }
-  #bg {
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+.mod1,
+.mod2,
+.mod3 {
+  margin: 50px;
+}
+
+.modal-title {
+  font-size: 19px;
+  text-align: center;
+  line-height: 30px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  color: black;
+}
+
+.modal-body {
+  color: black;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
